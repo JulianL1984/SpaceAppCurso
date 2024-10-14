@@ -28,7 +28,7 @@ function cinco() {
 
 setTimeout(() => uno(dos),5000)
 
-//calback hell
+//callback hell
 setTimeout(() => uno(
     () => dos(
         () => tres(
